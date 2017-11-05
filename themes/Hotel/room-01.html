@@ -1,0 +1,186 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation-icons.css">
+
+  </head>
+  <body>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" id="mainMenu" data-off-canvas data-position="left">
+          <h3 class="text-center">Navigation</h3>
+          <ul class="menu vertical" data-drilldown>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="has-submenu is-drilldown-submenu-parent"><a href="rooms.html">Rooms</a>
+            <ul class="menu vertical">
+              <li><a href="room-01.html">Rooms 01</a></li>
+              <li><a href="room-02.html">Rooms 02</a></li>
+              <li><a href="room-03.html">Rooms 03</a></li>
+              <li><a href="room-04.html">Rooms 04</a></li>
+              <li><a href="room-05.html">Rooms 05</a></li>
+              <li><a href="room-06.html">Rooms 06</a></li>
+            </ul>
+          </li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+
+
+        </div> <!-- of canvas -->
+
+    <div class="off-canvas-content" data-off-canvas-content>
+    <section class="promo-video">
+      <div id="overlay"></div>
+        <img src="assets/images/featured/room01.jpg">
+      <div class="headliner hide-for-small-only">
+        <div class="column row">
+            <h1 class="text-center">Room 01 / Imperial Room</h1>
+        </div>
+      </div> <!-- .headliner -->
+      <div class="header-content">
+        <div class="row">
+        <div class="small-8 medium-4 columns">
+          <img src="assets/images/logo.svg">
+        </div>
+        <div class="small-4 medium-4 columns">
+          <a class="menu-icon float-right" data-open="mainMenu"></a>
+        </div>
+        </div>  <!-- row -->
+      </div> <!-- .header-content -->
+    </section>
+    <div class="row column show-for-small-only">
+      <h2>Room 01 / Imperial Room</h2>
+    </div>
+    <section class="content">
+      <div class="row">
+        <div class="large-6 columns large-centered">
+        <nav class="roomMenu">
+          <ul class="menu horizontal expanded" data-magellan>
+            <li><a href="#room-info">Information</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#booking">Book Now</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+        <section id="room-info" class="room-info" data-magellan-target="room-info">
+            <div class="row">
+              <div class="large-10 columns large-centered">
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada felis eu dolor ullamcorper tincidunt. Donec placerat at dui ac ornare. Fusce efficitur eros elementum tempus tincidunt. Sed sollicitudin, sem quis ornare pretium, magna eros sodales augue, non blandit nisi massa non neque. Pellentesque hendrerit placerat eleifend. Donec cursus non enim eu venenatis. Aenean eleifend ultrices arcu, quis facilisis odio aliquet non. Fusce accumsan libero in ligula consequat, non convallis quam tincidunt. Etiam auctor fringilla arcu et bibendum. Ut nec ex et mauris feugiat rutrum. Praesent convallis quam sed dui dictum varius.</p>
+
+              <p class="text-center">Cras ultrices iaculis tempus. Donec feugiat tellus ac porttitor viverra. Phasellus dignissim ullamcorper finibus. Curabitur tincidunt fringilla elit nec gravida. Nunc at erat vestibulum, maximus ex sed, lobortis odio. Curabitur imperdiet dictum odio, nec viverra velit dapibus facilisis. Vivamus porttitor diam vitae sapien dignissim tempus. Proin porttitor felis non rutrum ultricies. Vivamus vitae urna eget augue hendrerit auctor hendrerit vel nunc. Nulla a dapibus turpis. Nam quis finibus justo. Aenean quis velit velit. Suspendisse potenti. Aenean lacinia sodales aliquam. Nam luctus ligula vel bibendum volutpat. Vivamus et scelerisque lectus.</p>
+            </div>
+            </div>
+        </section>
+          </section>
+        <section id="gallery" class="gallery bluebg" data-magellan-target="gallery">
+          <div class="row">
+                  <h2 class="white text-center">Gallery</h2>
+                  <div class="medium-up-4 small-up-2">
+                      <div class="column">
+                        <img src="assets/images/gallery/thumbnail/room01-01.jpg" class="thumbnail" alt="">
+                      </div>
+                      <div class="column">
+                        <img src="assets/images/gallery/thumbnail/room01-02.jpg" class="thumbnail" alt="">
+                      </div>
+                      <div class="column">
+                        <img src="assets/images/gallery/thumbnail/room01-03.jpg" class="thumbnail" alt="">
+                      </div>
+                      <div class="column">
+                        <img src="assets/images/gallery/thumbnail/room01-04.jpg" class="thumbnail" alt="">
+                      </div>
+                  </div>
+          </div>
+        </section>
+
+
+    <div class="separator-image room01-image"></div>
+    <section id="booking" class="booking row" data-magellan-target="booking">
+      <div class="large-8 large-centered text-center columns">
+        <h2>Book Now</h2>
+        <p>
+            default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+        <a data-open="modalBook" class="button">Book Now</a>
+      </div>
+    </section>
+      <div class="reveal" id="modalBook" data-reveal>
+        <h2 class="text-center">Booking Form</h2>
+        <form>
+          <div class="row columns">
+          <label>Name:
+            <input type="text" placeholder="Your Name">
+          </label>
+        </div>
+        <div class="row columns">
+        <label>Email:
+          <input type="email" placeholder="Your Email">
+        </label>
+      </div>
+      <div class="row columns">
+      <label>Phone Number:
+        <input type="tel" placeholder="Your Phone Number">
+      </label>
+    </div>
+    <div class="row columns">
+    <label>Message:
+      <textarea placeholder="Your Message"></textarea>
+    </label>
+  </div>
+  <div class="row columns">
+    <input type="submit" class="button" value="submit">
+</div>
+        </form>
+      </div>
+
+    <footer>
+      <div class="row">
+          <nav class="large-5 columns">
+            <ul class="vertical menu large-horizontal">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+          </nav>
+          <div class="contact-information large-3 columns">
+            <ul class="no-bullet vertical">
+              <li><i class="fi-marker"></i>adresa 1 telefon ulica </li>
+              <li><i class="fi-telephone"></i>4324324234</li>
+              <li><i class="fi-mail"></i>contact@gmail.com</li>
+            </ul>
+          </div>
+          <div class="about-us large-4 columns">
+            <h4>About Us</h4>
+            <p>
+            default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolv
+            </p>
+            <ul class="menu social align-right">
+              <li><a href="#">
+                <i class="fi-social-facebook"></i>
+              </a></li>
+              <li><a href="#">
+                <i class="fi-social-twitter"></i>
+              </a></li>
+            </ul>
+          </div>
+      </div>
+      <p class="text-center copyright">All rights Reserved Hotel</p>
+    </footer>
+  </div> <!-- off canvas content -->
+</div> <!-- off canvas wrapper inner -->
+</div> <!-- off canvas wrapper  -->
+
+<script src="js/jquery.js"></script>
+<script src="js/what-input.js"></script>
+<script src="js/foundation.js"></script>
+<script src="js/app.js"></script>
+  </body>
+</html>

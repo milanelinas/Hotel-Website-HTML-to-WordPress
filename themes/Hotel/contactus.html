@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation-icons.css">
+
+  </head>
+  <body>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" id="mainMenu" data-off-canvas data-position="left">
+          <h3 class="text-center">Navigation</h3>
+          <ul class="menu vertical" data-drilldown>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="has-submenu is-drilldown-submenu-parent"><a href="rooms.html">Rooms</a>
+            <ul class="menu vertical">
+              <li><a href="room-01.html">Rooms 01</a></li>
+              <li><a href="room-02.html">Rooms 02</a></li>
+              <li><a href="room-03.html">Rooms 03</a></li>
+              <li><a href="room-04.html">Rooms 04</a></li>
+              <li><a href="room-05.html">Rooms 05</a></li>
+              <li><a href="room-06.html">Rooms 06</a></li>
+            </ul>
+          </li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+
+
+        </div> <!-- of canvas -->
+
+    <div class="off-canvas-content" data-off-canvas-content>
+    <section class="promo-video">
+      <div id="overlay"></div>
+        <img src="assets/images/featured/contact-us.jpg">
+      <div class="headliner hide-for-small-only">
+        <div class="column row">
+            <h1 class="text-center">Contact Us</h1>
+        </div>
+      </div> <!-- .headliner -->
+      <div class="header-content">
+        <div class="row">
+        <div class="small-8 medium-4 columns">
+          <img src="assets/images/logo.svg">
+        </div>
+        <div class="small-4 medium-4 columns">
+          <a class="menu-icon float-right" data-open="mainMenu"></a>
+        </div>
+        </div>  <!-- row -->
+      </div> <!-- .header-content -->
+    </section>
+    <div class="row column show-for-small-only">
+      <h2>Contact Us</h2>
+    </div>
+    <section class="content">
+      <form action="post">
+        <div class="row">
+          <div class="large-6 columns large-centered">
+            <div class="row">
+              <div class="medium-12 columns">
+                <label for="name">Name
+                  <input type="text" placeholder="Your Name" name="name">
+               </label>
+             </div> <!-- medium 12 columns -->
+            </div> <!-- row -->
+            <div class="row">
+              <div class="medium-6 columns">
+                <label for="name">Email
+                  <input type="email" placeholder="Your Email" name="email">
+               </label>
+             </div> <!-- medium 6 columns -->
+             <div class="medium-6 columns">
+               <label for="name">City
+                 <input type="text" placeholder="Your City" name="city">
+              </label>
+            </div> <!-- medium 6 columns -->
+
+            </div> <!-- row -->
+            <div class="row">
+              <div class="medium-6 columns">
+                <label>Number of people
+                  <select>
+                    <option value="1">1</option>
+                    <option value="2" selected>2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="more">more</option>
+                  </select>
+                </label>
+              </div>
+              <div class="medium-6 columns">
+                <label for="date">Arrival Date
+                  <input type="date" name="date">
+                </label>
+              </div>
+            </div><!-- row -->
+            <div class="row">
+              <div class="medium-6 columns"><legend>Extra bed:</legend>
+                <input type="radio" name="extrabed" value="yes" id="yes" required><label for="yes">Yes</label>
+              <input type="radio" name="extrabed" value="no" id="no" required><label for="no">No</label></div>
+
+            </div>
+            <div class="row column">
+              <button type="submit" class="button" value="Send">
+                <span aria-hidden="true"><i class="fi-mail"></i>Send</span>
+              </button>
+              <button class="button reset" type="reset" value="reset">Reset</button>
+            </div>
+          </div>
+        </div> <!-- row -->
+      </form>
+    </section>
+
+    <footer>
+      <div class="row">
+          <nav class="large-5 columns">
+            <ul class="vertical menu large-horizontal">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+          </nav>
+          <div class="contact-information large-3 columns">
+            <ul class="no-bullet vertical">
+              <li><i class="fi-marker"></i>adresa 1 telefon ulica </li>
+              <li><i class="fi-telephone"></i>4324324234</li>
+              <li><i class="fi-mail"></i>contact@gmail.com</li>
+            </ul>
+          </div>
+          <div class="about-us large-4 columns">
+            <h4>About Us</h4>
+            <p>
+            default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolv
+            </p>
+            <ul class="menu social align-right">
+              <li><a href="#">
+                <i class="fi-social-facebook"></i>
+              </a></li>
+              <li><a href="#">
+                <i class="fi-social-twitter"></i>
+              </a></li>
+            </ul>
+          </div>
+      </div>
+      <p class="text-center copyright">All rights Reserved Hotel</p>
+    </footer>
+  </div> <!-- off canvas content -->
+</div> <!-- off canvas wrapper inner -->
+</div> <!-- off canvas wrapper  -->
+
+<script src="js/jquery.js"></script>
+<script src="js/what-input.js"></script>
+<script src="js/foundation.js"></script>
+<script src="js/app.js"></script>
+  </body>
+</html>
